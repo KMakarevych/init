@@ -19,12 +19,12 @@
 
 **One-liner from the internet (curl):**
 ```bash
-curl -fsSL https://example.com/init/-/raw/main/script.sh | GITLAB_PAT=glpat-xxxx bash
+curl -fsSL https://raw.githubusercontent.com/KMakarevych/init/refs/heads/main/script.sh | GITLAB_PAT=glpat-xxxx bash
 ```
 
 **One-liner from the internet (wget):**
 ```bash
-wget -qO- https://example.com/init/-/raw/main/script.sh | GITLAB_PAT=glpat-xxxx bash
+wget -qO- https://raw.githubusercontent.com/KMakarevych/init/refs/heads/main/script.sh | GITLAB_PAT=glpat-xxxx bash
 ```
 
 **Local run:**
