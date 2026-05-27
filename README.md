@@ -17,6 +17,11 @@
 
 ## Quick start
 
+**One-liner from the internet (curl) interactive:**
+```bash
+curl -fsSL https://raw.githubusercontent.com/KMakarevych/init/refs/heads/main/script.sh | bash
+```
+
 **One-liner from the internet (curl):**
 ```bash
 curl -fsSL https://raw.githubusercontent.com/KMakarevych/init/refs/heads/main/script.sh | GITLAB_PAT=glpat-xxxx bash
